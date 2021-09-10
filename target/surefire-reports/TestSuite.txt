@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 28.435 s <<< FAILURE! - in TestSuite
-Revision.SelfProject2.FeelingLuckyTest.happySearch  Time elapsed: 4.906 s  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 21.198 s <<< FAILURE! - in TestSuite
+Revision.SelfProject2.FeelingLuckyTest.happySearch  Time elapsed: 1.364 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at Revision.SelfProject2.FeelingLuckyTest.happySearch(FeelingLuckyTest.java:26)
 
-Revision.SelfProject2.GoogleSearchTest.SearchTest[Negative, n3984568384538465843](2)  Time elapsed: 1.568 s  <<< FAILURE!
+Revision.SelfProject2.GoogleSearchTest.SearchTest[Negative, n3984568384538465843](2)  Time elapsed: 1.617 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:46)
+	at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:51)
 
-Revision.SelfProject2.GoogleSearchTest.SearchTest[Negative, w3984568384538465843](3)  Time elapsed: 1.146 s  <<< FAILURE!
+Revision.SelfProject2.GoogleSearchTest.SearchTest[Negative, w3984568384538465843](3)  Time elapsed: 0.741 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:46)
+	at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:51)
 

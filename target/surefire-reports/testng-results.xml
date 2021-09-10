@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27603" started-at="2021-09-10T13:36:13 IST" finished-at="2021-09-10T13:36:40 IST">
+  <suite name="Suite" duration-ms="19538" started-at="2021-09-10T19:47:14 IST" finished-at="2021-09-10T19:47:33 IST">
     <groups>
     </groups>
-    <test name="DoodleSearch" duration-ms="17254" started-at="2021-09-10T13:36:13 IST" finished-at="2021-09-10T13:36:30 IST">
+    <test name="DoodleSearch" duration-ms="7640" started-at="2021-09-10T19:47:14 IST" finished-at="2021-09-10T19:47:21 IST">
       <class name="Revision.SelfProject2.FeelingLuckyTest">
-        <test-method status="PASS" signature="bLaunch()[pri:0, instance:Revision.SelfProject2.FeelingLuckyTest@1ec78b9]" name="bLaunch" is-config="true" duration-ms="11578" started-at="2021-09-10T13:36:13 IST" finished-at="2021-09-10T13:36:24 IST">
+        <test-method status="PASS" signature="bLaunch()[pri:0, instance:Revision.SelfProject2.FeelingLuckyTest@2a7222]" name="bLaunch" is-config="true" duration-ms="4402" started-at="2021-09-10T19:47:14 IST" finished-at="2021-09-10T19:47:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bLaunch -->
-        <test-method status="FAIL" signature="happySearch()[pri:0, instance:Revision.SelfProject2.FeelingLuckyTest@1ec78b9]" name="happySearch" duration-ms="4794" started-at="2021-09-10T13:36:24 IST" finished-at="2021-09-10T13:36:29 IST">
+        <test-method status="FAIL" signature="happySearch()[pri:0, instance:Revision.SelfProject2.FeelingLuckyTest@2a7222]" name="happySearch" duration-ms="2316" started-at="2021-09-10T19:47:18 IST" finished-at="2021-09-10T19:47:20 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -52,23 +52,23 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- happySearch -->
-        <test-method status="PASS" signature="cBrowser()[pri:0, instance:Revision.SelfProject2.FeelingLuckyTest@1ec78b9]" name="cBrowser" is-config="true" duration-ms="562" started-at="2021-09-10T13:36:29 IST" finished-at="2021-09-10T13:36:30 IST">
+        <test-method status="PASS" signature="cBrowser()[pri:0, instance:Revision.SelfProject2.FeelingLuckyTest@2a7222]" name="cBrowser" is-config="true" duration-ms="593" started-at="2021-09-10T19:47:21 IST" finished-at="2021-09-10T19:47:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cBrowser -->
       </class> <!-- Revision.SelfProject2.FeelingLuckyTest -->
     </test> <!-- DoodleSearch -->
-    <test name="GoogleSeacrh" duration-ms="27603" started-at="2021-09-10T13:36:13 IST" finished-at="2021-09-10T13:36:40 IST">
+    <test name="GoogleSeacrh" duration-ms="19538" started-at="2021-09-10T19:47:14 IST" finished-at="2021-09-10T19:47:33 IST">
       <class name="Revision.SelfProject2.GoogleSearchTest">
-        <test-method status="PASS" signature="bLaunch()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="bLaunch" is-config="true" duration-ms="2854" started-at="2021-09-10T13:36:13 IST" finished-at="2021-09-10T13:36:16 IST">
+        <test-method status="PASS" signature="bLaunch()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="bLaunch" is-config="true" duration-ms="2255" started-at="2021-09-10T19:47:14 IST" finished-at="2021-09-10T19:47:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bLaunch -->
-        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="lPage" is-config="true" duration-ms="8115" started-at="2021-09-10T13:36:16 IST" finished-at="2021-09-10T13:36:24 IST">
+        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="lPage" is-config="true" duration-ms="2463" started-at="2021-09-10T19:47:17 IST" finished-at="2021-09-10T19:47:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lPage -->
-        <test-method status="PASS" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="SearchTest" duration-ms="6033" started-at="2021-09-10T13:36:24 IST" data-provider="ExcelData" finished-at="2021-09-10T13:36:30 IST">
+        <test-method status="PASS" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="SearchTest" duration-ms="4670" started-at="2021-09-10T19:47:19 IST" data-provider="ExcelData" finished-at="2021-09-10T19:47:24 IST">
           <params>
             <param index="0">
               <value>
@@ -84,11 +84,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="lPage" is-config="true" duration-ms="1254" started-at="2021-09-10T13:36:30 IST" finished-at="2021-09-10T13:36:32 IST">
+        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="lPage" is-config="true" duration-ms="489" started-at="2021-09-10T19:47:24 IST" finished-at="2021-09-10T19:47:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lPage -->
-        <test-method status="FAIL" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="SearchTest" duration-ms="1493" started-at="2021-09-10T13:36:32 IST" data-provider="ExcelData" finished-at="2021-09-10T13:36:33 IST">
+        <test-method status="FAIL" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="SearchTest" duration-ms="1617" started-at="2021-09-10T19:47:24 IST" data-provider="ExcelData" finished-at="2021-09-10T19:47:26 IST">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:46)
+at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:51)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,11 +141,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="lPage" is-config="true" duration-ms="1203" started-at="2021-09-10T13:36:33 IST" finished-at="2021-09-10T13:36:34 IST">
+        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="lPage" is-config="true" duration-ms="558" started-at="2021-09-10T19:47:26 IST" finished-at="2021-09-10T19:47:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lPage -->
-        <test-method status="FAIL" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="SearchTest" duration-ms="1081" started-at="2021-09-10T13:36:34 IST" data-provider="ExcelData" finished-at="2021-09-10T13:36:36 IST">
+        <test-method status="FAIL" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="SearchTest" duration-ms="740" started-at="2021-09-10T19:47:26 IST" data-provider="ExcelData" finished-at="2021-09-10T19:47:27 IST">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:46)
+at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:51)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -198,11 +198,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="lPage" is-config="true" duration-ms="1147" started-at="2021-09-10T13:36:36 IST" finished-at="2021-09-10T13:36:37 IST">
+        <test-method status="PASS" signature="lPage()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="lPage" is-config="true" duration-ms="555" started-at="2021-09-10T19:47:27 IST" finished-at="2021-09-10T19:47:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lPage -->
-        <test-method status="PASS" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="SearchTest" duration-ms="2891" started-at="2021-09-10T13:36:37 IST" data-provider="ExcelData" finished-at="2021-09-10T13:36:40 IST">
+        <test-method status="PASS" signature="SearchTest(java.lang.String,java.lang.String)[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="SearchTest" duration-ms="4695" started-at="2021-09-10T19:47:28 IST" data-provider="ExcelData" finished-at="2021-09-10T19:47:33 IST">
           <params>
             <param index="0">
               <value>
@@ -218,7 +218,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method status="PASS" signature="cBrowser()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@153b3e6]" name="cBrowser" is-config="true" duration-ms="574" started-at="2021-09-10T13:36:40 IST" finished-at="2021-09-10T13:36:40 IST">
+        <test-method status="PASS" signature="cBrowser()[pri:0, instance:Revision.SelfProject2.GoogleSearchTest@54127a]" name="cBrowser" is-config="true" duration-ms="565" started-at="2021-09-10T19:47:33 IST" finished-at="2021-09-10T19:47:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cBrowser -->

@@ -35,14 +35,16 @@ public class BaseClass
 		}
 		
 		driver.manage().window().maximize();
-		
+
 		return driver;
 	}
 	
-	public void screenShot(WebDriver driver, String methodName) throws WebDriverException, IOException
+	public String screenShot(WebDriver driver, String methodName) throws WebDriverException, IOException
 	{
 		TakesScreenshot ts = (TakesScreenshot) driver;
-		FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File(System.getProperty("user.dir")+"\\Screenshots\\"+methodName+".png"));
+		String destFile=System.getProperty("user.dir")+"\\Screenshots\\"+methodName+".png";
+		FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File(destFile));
+		return destFile;
 	}
 
 }
