@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Revision.SelfProject2.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="DoodleSearch(failed)">
+    <classes>
+      <class name="Revision.SelfProject2.FeelingLuckyTest">
+        <methods>
+          <include name="cBrowser"/>
+          <include name="happySearch"/>
+          <include name="bLaunch"/>
+        </methods>
+      </class> <!-- Revision.SelfProject2.FeelingLuckyTest -->
+    </classes>
+  </test> <!-- DoodleSearch(failed) -->
+  <test thread-count="5" parallel="tests" name="GoogleSeacrh(failed)">
+    <classes>
+      <class name="Revision.SelfProject2.GoogleSearchTest">
+        <methods>
+          <include name="SearchTest" invocation-numbers="1 2"/>
+          <include name="bLaunch"/>
+          <include name="lPage"/>
+          <include name="cBrowser"/>
+        </methods>
+      </class> <!-- Revision.SelfProject2.GoogleSearchTest -->
+    </classes>
+  </test> <!-- GoogleSeacrh(failed) -->
+</suite> <!-- Failed suite [Suite] -->

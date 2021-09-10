@@ -1,0 +1,18 @@
+
+<suite name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="Revision.SelfProject2.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="GoogleSeacrh">
+    <classes>
+      <class name="Revision.SelfProject2.GoogleSearchTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="DoodleSearch">
+    <classes>
+      <class name="Revision.SelfProject2.FeelingLuckyTest"/>
+    </classes>
+  </test>
+</suite>
