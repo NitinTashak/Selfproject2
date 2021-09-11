@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,12 +104,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Revision.SelfProject2.GoogleSearchTest" hash-for-method="SearchTest(Negative, w3984568384538465843)">SearchTest(Negative, w3984568384538465843)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Revision.SelfProject2.GoogleSearchTest" hash-for-method="SearchTest(Negative, n3984568384538465843)">SearchTest(Negative, n3984568384538465843)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Revision.SelfProject2.GoogleSearchTest" hash-for-method="SearchTest(Negative, n3984568384538465843)">SearchTest(Negative, n3984568384538465843)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Revision.SelfProject2.GoogleSearchTest" hash-for-method="SearchTest(Negative, w3984568384538465843)">SearchTest(Negative, w3984568384538465843)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,6 +136,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Revision.SelfProject2.GoogleSearchTest" hash-for-method="SearchTest(Positive, John Cena)">SearchTest(Positive, John Cena)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Revision.SelfProject2.FileUploadTest" hash-for-method="abc">abc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -156,10 +161,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SearchTest(Negative, w3984568384538465843)">
-                  </a> <!-- SearchTest(Negative, w3984568384538465843) -->
+                  <a name="SearchTest(Negative, n3984568384538465843)">
+                  </a> <!-- SearchTest(Negative, n3984568384538465843) -->
                   <span class="method-name">SearchTest</span>
-                  <span class="parameters">(Negative, w3984568384538465843)</span>
+                  <span class="parameters">(Negative, n3984568384538465843)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:51)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
@@ -173,10 +178,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SearchTest(Negative, n3984568384538465843)">
-                  </a> <!-- SearchTest(Negative, n3984568384538465843) -->
+                  <a name="SearchTest(Negative, w3984568384538465843)">
+                  </a> <!-- SearchTest(Negative, w3984568384538465843) -->
                   <span class="method-name">SearchTest</span>
-                  <span class="parameters">(Negative, n3984568384538465843)</span>
+                  <span class="parameters">(Negative, w3984568384538465843)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at Revision.SelfProject2.GoogleSearchTest.SearchTest(GoogleSearchTest.java:51)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
@@ -214,6 +219,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Revision.SelfProject2.FileUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="abc">
+                  </a> <!-- abc -->
+                  <span class="method-name">abc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -261,6 +281,11 @@
       &lt;class name=&quot;Revision.SelfProject2.FeelingLuckyTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- DoodleSearch --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;UploadFIle&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Revision.SelfProject2.FileUploadTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadFIle --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,6 +301,9 @@
               </li>
               <li>
                 <span class="test-name">DoodleSearch (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadFIle (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -301,32 +329,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchTest')
-data.setCell(0, 2, 'Revision.SelfProject2.GoogleSearchTest')
-data.setCell(0, 3, 4695);
+data.setCell(0, 1, 'abc')
+data.setCell(0, 2, 'Revision.SelfProject2.FileUploadTest')
+data.setCell(0, 3, 35108);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SearchTest')
 data.setCell(1, 2, 'Revision.SelfProject2.GoogleSearchTest')
-data.setCell(1, 3, 4670);
+data.setCell(1, 3, 11675);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'happySearch')
 data.setCell(2, 2, 'Revision.SelfProject2.FeelingLuckyTest')
-data.setCell(2, 3, 2316);
+data.setCell(2, 3, 7717);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'SearchTest')
 data.setCell(3, 2, 'Revision.SelfProject2.GoogleSearchTest')
-data.setCell(3, 3, 1617);
+data.setCell(3, 3, 3765);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'SearchTest')
 data.setCell(4, 2, 'Revision.SelfProject2.GoogleSearchTest')
-data.setCell(4, 3, 740);
+data.setCell(4, 3, 2354);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchTest')
+data.setCell(5, 2, 'Revision.SelfProject2.GoogleSearchTest')
+data.setCell(5, 3, 1410);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -362,15 +394,15 @@ return data;
               <div class="chronological-class-name">Revision.SelfProject2.FeelingLuckyTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">bLaunch</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Revision.SelfProject2.GoogleSearchTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">lPage</span>
-                <span class="method-start">2931 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">Revision.SelfProject2.FileUploadTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">abc</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Revision.SelfProject2.FeelingLuckyTest</div> <!-- chronological-class-name -->
@@ -378,56 +410,60 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">happySearch</span>
-                <span class="method-start">4434 ms</span>
+                <span class="method-start">12735 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Revision.SelfProject2.GoogleSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">lPage</span>
+                <span class="method-start">17022 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchTest(Positive, Nitin)</span>
-                <span class="method-start">5394 ms</span>
+                <span class="method-start">20882 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Revision.SelfProject2.FeelingLuckyTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">cBrowser</span>
-                <span class="method-start">7025 ms</span>
+                <span class="method-start">21382 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Revision.SelfProject2.GoogleSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">lPage</span>
-                <span class="method-start">10070 ms</span>
+                <span class="method-start">32569 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SearchTest(Negative, n3984568384538465843)</span>
-                <span class="method-start">10559 ms</span>
+                <span class="method-start">34121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">lPage</span>
-                <span class="method-start">12256 ms</span>
+                <span class="method-start">36927 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SearchTest(Negative, w3984568384538465843)</span>
-                <span class="method-start">12814 ms</span>
+                <span class="method-start">38600 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">lPage</span>
-                <span class="method-start">13701 ms</span>
+                <span class="method-start">40329 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchTest(Positive, John Cena)</span>
-                <span class="method-start">14256 ms</span>
+                <span class="method-start">42079 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cBrowser</span>
-                <span class="method-start">18951 ms</span>
+                <span class="method-start">45845 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

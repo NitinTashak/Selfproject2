@@ -15,4 +15,9 @@
       <class name="Revision.SelfProject2.FeelingLuckyTest"/>
     </classes>
   </test>
+  <test thread-count="5" name="UploadFIle">
+    <classes>
+      <class name="Revision.SelfProject2.FileUploadTest"/>
+    </classes>
+  </test>
 </suite>
